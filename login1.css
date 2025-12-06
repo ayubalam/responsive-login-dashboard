@@ -1,0 +1,87 @@
+body {
+    background: bisque;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+/* Top heading full form */
+.top-title {
+    font-weight: bold;
+    font-size: 38px;
+    margin-top: 30px;
+}
+
+/* Two different colors */
+.title-1 {
+    color: black;
+}
+
+
+
+/* Only ONE box around everything */
+.login-card {
+    background: white;
+    border: 3px solid navy;
+    width: 400px;
+    padding: 30px;
+    border-radius: 18px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.25);
+    margin: 120px auto;
+}
+
+/* Heading inside login card */
+.login-card h1 {
+    text-align: center;
+    margin-bottom: 25px;
+    color: purple;
+}
+
+/* Spacing between fields */
+.field {
+    margin-bottom: 15px;
+}
+
+/* Labels */
+.label {
+    display: inline-block;
+    width: 120px;
+    font-weight: bold;
+}
+
+/* Inputs */
+input {
+    padding: 8px;
+    width: 200px;
+    border-radius: 6px;
+    border: 1px solid gray;
+}
+.field {
+    position: relative;
+}
+
+.eye {
+    position: absolute;
+    right: 60px;
+    top: 9px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+
+
+/* Button */
+.btn {
+    width: 100%;
+    padding: 10px;
+    background:skyblue;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.btn:hover {
+    background-color: purple;
+}
